@@ -24,6 +24,9 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    NSString *ejemplo = @"Esto es un ejemplo";
+    
+    NSLog(@"%@", ejemplo);
 }
 
 @end
